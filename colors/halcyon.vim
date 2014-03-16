@@ -235,7 +235,7 @@ exe		"hi! WildMenu"        .s:fg_red          .s:bg_dark_white        .s:fmt_bol
 "}}}
 " Generic Syntax Highlighting: (see :help group-name)"{{{
 " ----------------------------------------------------------------------------
-exe "hi! Comment"    .s:fg_dark_gray     .s:bg_none   .s:fmt_none
+exe "hi! Comment"    .s:fg_dark_gray     .s:bg_none   .s:fmt_ital
 
 exe "hi! Constant"   .s:fg_dark_cyan        .s:bg_none   .s:fmt_none
 exe "hi! String"    .s:fg_dark_green       .s:bg_none   .s:fmt_none
