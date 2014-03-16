@@ -205,7 +205,7 @@ exe "hi! SignColumn"   .s:fg_none        .s:bg_dark_white  .s:fmt_none
 exe "hi! Incsearch"    .s:fg_black .s:bg_yellow .s:fmt_none
 exe "hi! LineNr"       .s:fg_dark_gray     .s:bg_white        .s:fmt_none
 exe "hi! CursorLineNr" .s:fg_red      .s:bg_none        .s:fmt_bold
-exe "hi! MatchParen"   .s:fg_white  .s:bg_dark_cyan        .s:fmt_none
+exe "hi! MatchParen"   .s:fg_none       .s:bg_dark_gray         .s:fmt_none
 exe "hi! ModeMsg"      .s:fg_dark_green       .s:bg_none        .s:fmt_none
 exe "hi! MoreMsg"      .s:fg_dark_green       .s:bg_none        .s:fmt_none
 exe "hi! NonText"      .s:fg_dark_white   .s:bg_none        .s:fmt_none
