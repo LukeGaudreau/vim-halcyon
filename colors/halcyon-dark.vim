@@ -156,12 +156,12 @@ exe "hi! CursorColumn".s:fg_none        .s:bg_black       .s:fmt_none
 exe "hi! CursorLine"  .s:fg_none        .s:bg_black       .s:fmt_none
 exe "hi! Directory"   .s:fg_dark_blue   .s:bg_none        .s:fmt_none
 exe "hi! DiffAdd"     .s:fg_white       .s:bg_dark_green  .s:fmt_none
-exe "hi! DiffChange"  .s:fg_dark_magenta.s:bg_cyan        .s:fmt_none
+exe "hi! DiffChange"  .s:fg_black       .s:bg_white       .s:fmt_none
 exe "hi! DiffDelete"  .s:fg_white       .s:bg_dark_red    .s:fmt_none
-exe "hi! DiffText"    .s:fg_white       .s:bg_dark_magenta.s:fmt_none
+exe "hi! DiffText"    .s:fg_dark_blue   .s:bg_white       .s:fmt_none
 exe "hi! ErrorMsg"    .s:fg_white       .s:bg_dark_red    .s:fmt_stnd
 exe "hi! VertSplit"   .s:fg_gray        .s:bg_none        .s:fmt_none
-exe "hi! Folded"      .s:fg_dark_gray   .s:bg_gray        .s:fmt_none
+exe "hi! Folded"      .s:fg_white       .s:bg_black       .s:fmt_none
 exe "hi! FoldColumn"  .s:fg_none        .s:bg_dark_white  .s:fmt_none
 exe "hi! SignColumn"  .s:fg_none        .s:bg_dark_white  .s:fmt_none
 exe "hi! Incsearch"   .s:fg_black       .s:bg_yellow      .s:fmt_none
@@ -183,8 +183,8 @@ exe "hi! SpellBad"    .s:fg_white    .s:bg_none        .s:fmt_undr
 exe "hi! SpellCap"    .s:fg_dark_blue   .s:bg_none        .s:fmt_undr
 exe "hi! SpellLocal"  .s:fg_dark_cyan   .s:bg_none        .s:fmt_undr
 exe "hi! SpellRare"   .s:fg_dark_magenta.s:bg_none        .s:fmt_undr
-exe "hi! StatusLine"  .s:fg_black       .s:bg_dark_white  .s:fmt_revr
-exe "hi! StatusLineNC".s:fg_gray        .s:bg_dark_gray   .s:fmt_revr
+exe "hi! StatusLine"  .s:fg_dark_white  .s:bg_black       .s:fmt_none
+exe "hi! StatusLineNC".s:fg_dark_gray   .s:bg_black       .s:fmt_none
 exe "hi! TabLine"     .s:fg_black       .s:bg_dark_white  .s:fmt_revr
 "		TabLineFill"
 "		TabLineSel"
