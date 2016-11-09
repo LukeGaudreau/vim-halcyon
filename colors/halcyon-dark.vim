@@ -171,7 +171,7 @@ exe "hi! MatchParen"  .s:fg_none        .s:bg_dark_gray   .s:fmt_none
 exe "hi! ModeMsg"     .s:fg_dark_green  .s:bg_none        .s:fmt_none
 exe "hi! MoreMsg"     .s:fg_dark_green  .s:bg_none        .s:fmt_none
 exe "hi! NonText"     .s:fg_dark_white  .s:bg_none        .s:fmt_none
-exe "hi! Normal"      .s:fg_white       .s:bg_dark_black  .s:fmt_none
+exe "hi! Normal"      .s:fg_white       .s:bg_none        .s:fmt_none
 exe "hi! Pmenu"       .s:fg_black       .s:bg_dark_white  .s:fmt_none
 exe "hi! PmenuSel"    .s:fg_black       .s:bg_dark_white  .s:fmt_revr
 "		PmenuSbar"
