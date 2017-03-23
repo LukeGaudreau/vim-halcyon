@@ -183,8 +183,8 @@ exe "hi! SpellBad"    .s:fg_white    .s:bg_none        .s:fmt_undr
 exe "hi! SpellCap"    .s:fg_dark_blue   .s:bg_none        .s:fmt_undr
 exe "hi! SpellLocal"  .s:fg_dark_cyan   .s:bg_none        .s:fmt_undr
 exe "hi! SpellRare"   .s:fg_dark_magenta.s:bg_none        .s:fmt_undr
-exe "hi! StatusLine"  .s:fg_dark_white  .s:bg_black       .s:fmt_none
-exe "hi! StatusLineNC".s:fg_dark_gray   .s:bg_black       .s:fmt_none
+exe "hi! StatusLine"  .s:fg_gray        .s:bg_dark_black  .s:fmt_none
+exe "hi! StatusLineNC".s:fg_dark_gray   .s:bg_dark_black  .s:fmt_none
 exe "hi! TabLine"     .s:fg_black       .s:bg_dark_white  .s:fmt_revr
 "		TabLineFill"
 "		TabLineSel"
